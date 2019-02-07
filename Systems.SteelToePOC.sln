@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9290DF55-F34B-42FD-9440-01F124AE3F93}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72DDDD1B-3672-4407-AEC7-94E15B88D94E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Systems.SteelToePOC.Web.Api", "src\Systems.SteelToePOC.Web.Api\Systems.SteelToePOC.Web.Api.csproj", "{098D10A5-5BC2-443F-9187-481DAA340A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{098D10A5-5BC2-443F-9187-481DAA340A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098D10A5-5BC2-443F-9187-481DAA340A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098D10A5-5BC2-443F-9187-481DAA340A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098D10A5-5BC2-443F-9187-481DAA340A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{098D10A5-5BC2-443F-9187-481DAA340A77} = {72DDDD1B-3672-4407-AEC7-94E15B88D94E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D82CE49-1B35-4EC4-93A1-D06A2FAAB1D6}
+	EndGlobalSection
+EndGlobal
